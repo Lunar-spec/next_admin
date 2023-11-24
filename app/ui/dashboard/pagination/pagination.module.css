@@ -1,0 +1,19 @@
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: var(--bgHover);
+    color: var(--textSoft);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}

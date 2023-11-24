@@ -1,0 +1,50 @@
+:root {
+    --bg: #151c2c;
+    --bgSoft: #182237;
+    --bgHover: #2e374a;
+    --text: white;
+    --textSoft: #b7bac1;
+    --gold: #F5B041;
+    --goldSoft: #F8C471;
+    --purple: #5d57c9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--bgHover);
+    border-radius: 20px;
+    border: 3px solid var(--bg);
+}
+
+*::-webkit-scrollbar-corner {
+    background-color: var(--bg);
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
