@@ -8,12 +8,18 @@
     padding: 5px 10px;
     cursor: pointer;
     outline: none;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 5px;
-    background: var(--bgHover);
+    background: var(--bg);
     color: var(--textSoft);
+    transition: all .3s ease;
+}
+
+.button:hover{
+    border: 1px solid var(--gold);
 }
 
 .button:disabled {
     cursor: not-allowed;
+    background: var(--bgHover);
 }
